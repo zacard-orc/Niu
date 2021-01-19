@@ -27,10 +27,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6C1FC8854A3093ED59AD0219 /* Pods-BF_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BF_Tests.release.xcconfig"; path = "Target Support Files/Pods-BF_Tests/Pods-BF_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		92B7E53BD64953698B20EC47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		92B7E53BD64953698B20EC47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		942CA462F9FA59AED6CB7190 /* Pods_BF_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BF_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E3711EF56E8AA8AA2724B26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C97ECAA2AD5806E4C67FC2DE /* BF.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BF.podspec; path = ../BF.podspec; sourceTree = "<group>"; };
+		9E3711EF56E8AA8AA2724B26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C97ECAA2AD5806E4C67FC2DE /* BF.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BF.podspec; path = ../BF.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 				4BA19EB8E57C7FBDDDA16F4F /* Pods-BF_Tests.debug.xcconfig */,
 				6C1FC8854A3093ED59AD0219 /* Pods-BF_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
